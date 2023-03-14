@@ -108,7 +108,7 @@ Note that we will compile with your alloc-grid.c file. Make sure it compiles.
 		
 
 		
-#### [6. I will show you how great I am] (101-strtow.c)
+#### [6. I will show you how great I am](101-strtow.c)
 		
 
 		
