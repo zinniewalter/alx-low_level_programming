@@ -53,8 +53,10 @@ int main(int argc, char *argv[])
 	{
 		nchars = read(file_from, buf, 1024);
 			if (nchars == -1)
+			{
 				check_file_access(-1, 0, argv);
 				nwr = write(file_to, buf, nchars);
+			}
 
 			if (nwr == -1)
 				check_file_access(0, -1, argv);
